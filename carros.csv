@@ -1,0 +1,11 @@
+name,description,type,capacity,transmission,fuel_type,fuel_capacity,price_per_day,original_price,is_favorite
+Honda Civic,"Sedan confortável e econômico","Sedan",5,"Automatic","Gasoline",50,150.00,180.00,True
+Toyota Hilux,"SUV robusto para qualquer terreno","SUV",5,"Manual","Diesel",80,200.00,250.00,False
+Tesla Model 3,"Carro elétrico com tecnologia avançada","Sedan",5,"Automatic","Electric",75,300.00,350.00,True
+BMW M4,"Cupê esportivo de alta performance","Coupe",4,"Automatic","Gasoline",60,400.00,500.00,True
+Chevrolet Spin,"Ideal para famílias grandes","MPV",7,"Manual","Gasoline",65,120.00,150.00,False
+Volkswagen Polo,"Compacto urbano eficiente","Hatchback",5,"Manual","Gasoline",45,100.00,130.00,False
+Hyundai Kona,"SUV compacto com motor híbrido","SUV",5,"Automatic","Hybrid",50,180.00,210.00,True
+Fiat Mobi,"Compacto e econômico para cidade","Hatchback",4,"Manual","Gasoline",40,90.00,100.00,False
+Ford Mustang,"Muscle car clássico com muito estilo","Sport",4,"Manual","Gasoline",60,350.00,400.00,True
+Renault Zoe,"Pequeno elétrico para mobilidade urbana","Hatchback",5,"Automatic","Electric",40,160.00,180.00,True

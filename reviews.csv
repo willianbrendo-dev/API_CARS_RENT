@@ -1,0 +1,11 @@
+car_id,user_name,user_position,comment,rating,date
+1,Ana Souza,Engenheira,"Excelente carro, confortável e econômico.",5,2024-10-12
+2,Carlos Lima,Professor,"Ótimo desempenho em estradas de terra.",4,2024-09-05
+3,Marina Lopes,Designer,"Adorei o silêncio do carro elétrico.",5,2024-11-22
+4,João Pedro,Mecânico,"Muito potente, mas bebe bastante.",3,2024-08-30
+5,Fernanda Costa,Analista,"Ideal para viajar com a família.",4,2024-10-01
+6,Ricardo Alves,Estudante,"Compacto e fácil de estacionar.",4,2024-09-18
+7,Larissa Ribeiro,Arquiteta,"Híbrido super econômico!",5,2024-11-05
+8,Thiago Martins,Motorista,"Simples, mas atende bem para o dia a dia.",3,2024-10-28
+9,Sabrina Dias,Vendedora,"Experiência divertida ao dirigir.",4,2024-07-14
+10,Fábio Rocha,Desenvolvedor,"Elétrico muito eficiente!",5,2024-12-03
