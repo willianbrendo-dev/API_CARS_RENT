@@ -44,7 +44,7 @@ class Car(models.Model):
 
 class CarImage(models.Model):
     car = models.ForeignKey(Car, on_delete=models.CASCADE, related_name='images')
-    image = models.ImageField(upload_to='car_images/')
+    image = models.URLField()
 
     class Meta:
         verbose_name = 'Imagem do Carro'

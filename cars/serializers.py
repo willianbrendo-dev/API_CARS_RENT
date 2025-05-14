@@ -1,5 +1,6 @@
 from rest_framework import serializers
 from .models import Car, CarImage, Review
+from dropbox_utils import upload_to_dropbox
 
 
 class CarImageSerializer(serializers.ModelSerializer):
@@ -45,6 +46,9 @@ class CarCreateSerializer(serializers.ModelSerializer):
     def create(self, validated_data):
         images = validated_data.pop('images', [])
         car = Car.objects.create(**validated_data)
-        for image in images:
-            CarImage.objects.create(car=car, image=image)
+
+        for image_file in images:
+            image_url = upload_to_dropbox(image_file, image_file.name)
+            CarImage.objects.create(car=car, image=image_url)
+
         return car
