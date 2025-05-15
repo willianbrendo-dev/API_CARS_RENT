@@ -13,6 +13,7 @@ python3 manage.py migrate
 # --- Adicione esta linha ---
 echo "Coletando arquivos estáticos..."
 python3 manage.py collectstatic --noinput # --noinput para não pedir confirmação
+python manage.py createsuperuser --noinput || true &&
 # -------------------------
 
 echo "Migrações aplicadas e estáticos coletados. Iniciando o servidor Gunicorn..."
